@@ -10,4 +10,4 @@ function calculatePoints (wins, draws, losses){
     const totalPoints = (wins * PerWin)+(draws * PerDraw) + (losses * PerLoss);
     console.log(`The Total Points : ${totalPoints}`);
 }
-calculatePoints(5, 3 , 2)
+calculatePoints(5, 2 , 3);
